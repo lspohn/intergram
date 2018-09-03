@@ -94,7 +94,7 @@ span.msg-bold {
     height: 12px;
     max-height: 12px;
     background: #e5e5e5;
-    box-shadow: inset 0 -0.825rem 0 #e5e5e5, inset 0 -5.6rem 0 #fafafa;
+    box-shadow: inset 0 -1.1rem 0 #e5e5e5, inset 0 -5.6rem 0 #fafafa;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -152,10 +152,10 @@ a.banner {
     z-index: 99;
     background: #e5e5e5;
     outline: none;
-    color: #777;
-    font-size: 0.5rem;
+    color: #277691;
+    font-size: 0.7rem;
     padding: 0.1rem 0.5rem;
-    text-align: right;
-    font-weight: 200;
-    text-decoration: none
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
 }

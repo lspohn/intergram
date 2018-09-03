@@ -6,13 +6,13 @@ export const defaultConfiguration = {
   closedChatAvatarUrl: '', // only used if closedStyle is set to 'chat'
   cookieExpiration: 1, // in days. Once opened, closed chat title will be shown as button (when closedStyle is set to 'chat')
   displayMessageTime: true,
-  mainColor: '#1f8ceb',
-  availabilityStart: 0, // Min. Hour of the day (UTC) where widget is shown
-  availabilityEnd: 24, // Max. Hour of the day (UTC) where widget is shown
+  mainColor: '#277691',
+  availabilityStart: 7, // Min. Hour of the day (UTC) where widget is shown
+  availabilityEnd: 16, // Max. Hour of the day (UTC) where widget is shown
   availability2: false, // Enables second time interval (e.g. to enable 0-3 and 18-24 for other time zones)
   availabilityStart2: 0,
   availabilityEnd2: 0,
-  availabilityDays: [0, 1, 2, 3, 4, 5, 6], // 0 = sunday, 6 = saturday
+  availabilityDays: [1, 2, 3, 4, 5], // 0 = sunday, 6 = saturday
 
   titleClosed: 'Click to chat!',
   titleOpen: 'Let\'s chat!',
