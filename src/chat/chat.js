@@ -40,7 +40,7 @@ export default class Chat extends Component {
             ref={(input) => { this.input = input }}
             onKeyUp={this.handleKeyPress} />
 
-          <a class='banner' href=''>
+          <a class='banner'>
                     Idana Support Chat
           </a>
         </div>
